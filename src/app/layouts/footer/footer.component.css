@@ -13,5 +13,6 @@ footer {
 }
 
 .nav-link {
-	color: var(--primary-color);
+	/* color: var(--primary-color); */
+	color:rgba(8, 10, 10, 0.512) ;
 }
