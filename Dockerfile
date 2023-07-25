@@ -7,7 +7,7 @@ WORKDIR /app
 # Add the source code to app
 COPY package.json .
 RUN npm install
-COPY . /app/
+#COPY . /app/
 # install all the depencies
 RUN npm run build
 
